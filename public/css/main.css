@@ -1,0 +1,228 @@
+/* Paw Color: #1C6067 */
+
+.container {
+    width: 100%;
+    height: 100%;
+} .wrapper {
+    position: relative;
+    width: 1000px;
+    margin: auto;
+} .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 650px;
+    background: #212121;
+    opacity: 0.3;
+} .aside {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+    height: 650px;
+    color: #E0E0E0;
+    background: url(../img/dog.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+} .header #title {
+    font-size: 10rem;
+    text-shadow: 0px 0px 3px #212121;
+} .header #title img {
+    margin-left: 0.1em;
+    position: relative;
+    top: 0.3em;
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+} .header .box {
+    margin-left: 0.3em;
+    padding: 1em 2em;
+    max-width: 275px;
+    border-radius: 3px;
+    background: #FFF;
+    box-shadow: 0px 0px 50px 1px #212121;
+    border: 1px solid #CCC;
+} .header .box span {
+    padding: 1em 0 1.5em 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #CCC;
+} .header .box span #g-btn {
+    padding: 0.1em 1.5em;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 3px;
+    color: #1976D2;
+    background: transparent;
+    border: 2px solid #1976D2;
+    transition: ease-in 0.2s;
+}  .header .box span #g-btn:hover {
+    color: #FFF;
+    background: #1976D2;
+    transition: 0.2s ease-out;
+} .header .box span #s-btn {
+    padding: 0.1em 1.5em;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 3px;
+    color: #388E3C;
+    background: transparent;
+    border: 2px solid #388E3C;
+    transition: ease-in 0.2s;
+}  .header .box span #s-btn:hover {
+    color: #FFF;
+    background: #388E3C;
+    transition: 0.2s ease-out;
+} .header .box form {
+    height: 150px;
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} .header .box form h1 {
+    width: 100%;
+    display: block;
+    font-size: 1.5rem;
+    text-align: left;
+    color: #212121;
+} .header .box form label {
+    display: inline-block;
+    width: 70px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #212121;
+} .header .box form input {
+    padding: 0.1em 0.3em;
+    width: calc(100% - 85px);
+    outline: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    color: #212121;
+} .header .box form input:focus {
+    cursor: text;
+    box-shadow: 0 0 1px 3px #E3F2FD;
+} .header .box form button {
+    padding: 0.1em 0;
+    font-size: 0.9rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #E91E63;
+    background: transparent;
+    border: 2px solid #E91E63;
+    transition: ease-in 0.2s;
+} .header .box form button:hover {
+    color: #E0E0E0;
+    background: #E91E63;
+    transition: 0.2s ease-out;
+} .header .more {
+    display: block;
+    margin: 1em 0;
+    margin-left: 0.3em;
+    padding-bottom:2px;
+    display: inline-block;
+    color: #E0E0E0;
+    background-image: linear-gradient(#E0E0E0, #E0E0E0);
+    background-position: 0 100%; /*OR bottom left*/
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s, background-position 0s 0.3s;
+} .header .more:hover {
+    background-position: 100% 100%;
+    background-size: 100% 2px;
+}
+
+.footer {
+    color: #E0E0E0;
+    background: #212121;
+} .footer span {
+    padding: 1em 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+} .footer span img {
+    margin-top: 0.5em;
+    width: 50px;
+    height: 50px;
+} .footer span p {
+    padding-left: 1.5em;
+    width: 80%;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-align: left;
+    border-left: 1px solid #CCC;
+} .footer span ul{
+    list-style: none;
+} .footer span ul li a {
+    padding-bottom:2px;
+    display: inline-block;
+    color: #90A4AE;
+    background-image: linear-gradient(#607D8B, #607D8B);
+    background-position: 0 100%; /*OR bottom left*/
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s, background-position 0s 0.3s;
+} .footer span ul li a:hover {
+    color: #607D8B;
+    background-position: 100% 100%;
+    background-size: 100% 2px;
+}
+
+/* .content {
+    min-height: 1000px;
+    color: #E0E0E0;
+    background: url(../img/background.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 5px solid #CCC;
+    border-bottom: 1px solid #CCC;
+} */
+
+.nav {
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #E0E0E0;
+    border-right: 1px solid #CCC;
+} .nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+} .nav ul li #title{
+    color: #E0E0E0;
+    background: #212121;
+    font-size: 1.3rem;
+} .nav ul li #title img{
+    position: relative;
+    top: 0.3em;
+    left: -0.3em;
+    width: 25px;
+    height: 25px;
+} .nav ul li i{
+    display:inline-block;
+    width: 1.3em;
+} .nav ul li a {
+    display: block;
+    padding: 0.3em 1em;
+    color: #212121;
+    background: transparent;
+    transition: ease-in 0.1s;
+} .nav ul li a:active {
+    /* color: #1C6067; */
+    color: #D50000 !important;
+} .nav ul li a:hover {
+    background: #B0BEC5;
+    transition: 0.1s ease-out;
+}
+
